@@ -35,6 +35,7 @@ void Print (Node* head){
 void InsertN(int y, int x, Node* head){
 	Node* temp = new Node;
 	temp->data = y;
+	temp->next = NULL;
 	for(int i = 1; i < x; i++){
 		temp->next = head;
 
